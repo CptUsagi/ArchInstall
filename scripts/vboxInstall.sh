@@ -100,8 +100,8 @@ echo "Define $basicUser password:"
 passwd $basicUser
 
 # Packages
-pacman -Syy
-pacman -S grub efibootmgr dosfstools os-prober mtools vim sudo git wget base-devel networkmanager
+pacman -Syy --noconfirm
+pacman -S --noconfirm grub efibootmgr dosfstools os-prober mtools vim sudo git wget base-devel networkmanager
 
 # Sudo privilege for the basic user
 sed -i 's/# %wheel ALL=(ALL) ALL/%wheel ALL=(ALL) ALL/' /etc/sudoers
