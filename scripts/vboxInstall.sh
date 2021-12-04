@@ -74,4 +74,7 @@ genfstab -U /mnt >> /mnt/etc/fstab
 # CHROOT
 ##################################################
 
+cat ./vboxChroot.sh >> /mnt/vboxChroot.sh
+chmod +x /mnt/vboxChroot.sh
+
 arch-chroot /mnt
