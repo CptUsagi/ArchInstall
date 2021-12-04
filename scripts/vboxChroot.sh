@@ -80,8 +80,8 @@ sed -i 's/# %wheel ALL=(ALL) ALL/%wheel ALL=(ALL) ALL/' /etc/sudoers
 echo "Defaults editor=/usr/bin/vim" >> /etc/sudoers
 
 # Setup grub
-mkdir /boot/EFI
-mount "/dev/$devDisk$efiPart" /boot/EFI
+mkdir -p /boot/EFI
+mount "$devDisk$efiPart" /boot/EFI
 grub-install --target=x86_64-efi --bootloader id-grub_uefi --recheck
 grub-mkconfig -o /boot/grub/grub.cfg
 
