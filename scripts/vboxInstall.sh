@@ -68,7 +68,7 @@ reflector -c $country -f 12 -l 10 -n 12 --save $pathMirrorlist
 # Installing kernel
 pacstrap /mnt base $kernel linux-firmware
 
-genfstap -U /mnt >> /mnt/etc/fstab
+genfstab -U /mnt >> /mnt/etc/fstab
 
 ##################################################
 # CHROOT
