@@ -28,7 +28,7 @@ locale="fr_CH.UTF-8 UTF-8"
 
 # Disk & disk dump file
 devDisk="/dev/sda"
-dump="./vboxDisk.dump"i
+dump="./vboxDisk.dump"
 
 # Partition numbers
 efiPart="1"
