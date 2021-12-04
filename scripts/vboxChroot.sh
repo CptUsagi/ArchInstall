@@ -75,6 +75,7 @@ pacman -Syy --noconfirm
 pacman -S --noconfirm grub efibootmgr dosfstools os-prober mtools vim sudo git wget base-devel networkmanager
 
 # Sudo privilege for the basic user
+chmod g+w /etc/sudoers
 sed -i 's/# %wheel ALL=(ALL) ALL/%wheel ALL=(ALL) ALL/' /etc/sudoers
 echo "Defaults editor=/usr/bin/vim" >> /etc/sudoers
 
