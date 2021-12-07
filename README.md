@@ -4,7 +4,7 @@ Install script for ArchLinux on VirtualBox
 
 ## VM Specs
 
-- **30 Go of dynamicly allocated HDD**
+- **30 Go of dynamically allocated HDD**
 - **Must have EFI enabled**
 - Video memory : maxed out
 - Graphic controler VMSVGA
@@ -15,7 +15,7 @@ Install script for ArchLinux on VirtualBox
 - VT-X or AMD-V activated
 
 ### Notes
-If you use VirtualBox v6.1.30+ > don't use 3D accelertion else you should be fine
+If you use VirtualBox v6.1.30+ > don't use 3D acceleration else you should be fine
 
 ---
 
