@@ -15,7 +15,7 @@ Install script for ArchLinux on VirtualBox
 - VT-X or AMD-V activated
 
 ### Notes
-If you use VirtualBox v6.1.30+ > don't use 3D acceleration else you should be fine
+If you use VirtualBox v6.1.30+ -> don't use 3D acceleration or else you might run into problems with graphical driver compatibility
 
 ---
 
@@ -39,7 +39,7 @@ git clone https://github.com/CptUsagi/ArchInstall.git
 ```
 ./vboxChroot.sh
 ```
-7. Wait until prompted to set password
+7. Wait until prompted to set passwords
 8. Set password for ROOT
 9. Set password for sudo user (by default the user is cptusagi, feel free to change it in the vboxInstall.sh file)
 10. Wait until end and restart
@@ -47,7 +47,7 @@ git clone https://github.com/CptUsagi/ArchInstall.git
 ---
 
 ## User and hostname
-- The default user name is cptusagi
-- The default hostname is cpt-arch
+- The default user name is **cptusagi**
+- The default hostname is **cpt-arch**
 
 You can modify the scripts to adapt it to your liking, but for the current version I haven't made it dynamic nor did I make the disk partitions dynamic (maybe I'll implement it in a later version)
